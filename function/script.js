@@ -182,11 +182,6 @@ function testElseIf(val) {
   }
 }
 
-console.log(orderMyLogic(3))
-
-
-
-
 
 // Chaining If Else Statement
 
