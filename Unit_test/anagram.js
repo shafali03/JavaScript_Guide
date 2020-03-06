@@ -13,3 +13,15 @@ function formatStr(str) {
 }
 
 module.exports = isAnagram
+
+
+/*
+package-json File can add watch 
+
+"test": "jest",
+"testwatch": "jest --watchAll"
+
+
+to run command the watch command 
+npm run testwatch
+*/
