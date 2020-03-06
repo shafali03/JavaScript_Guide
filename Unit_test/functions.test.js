@@ -37,6 +37,17 @@ test('There is no I in team',() => {
 })
 
 test('should be a username', () => {
-  usernames = ['john', 'karen'];
-  expect(username).toContain('admin')
+  usernames = ['john', 'karen', 'admin'];
+  expect(usernames).toContain('admin')
 }) 
+
+
+// working with async data
+
+test('User fetched name should be Leanne Graham', () => {
+  expect.assertions(1);
+  return functions.fetchUser()
+  .then(data => {
+    expect(data.name).toEqual('Leanne Graham');
+  })
+})
