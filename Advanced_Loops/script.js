@@ -46,3 +46,22 @@ for (item in detailedBasket) {
 // apples
 // oranges
 // grapes
+
+
+
+
+
+
+
+
+// Call stack first in last out
+
+
+
+// Recursion
+
+function foo() {
+  foo()
+}
+
+foo()
