@@ -100,3 +100,5 @@ subscribed.addEventListener("change", () => {
   message = subscribed.checked ? "Thank You" : "Please Subscribe";
   console.log(message)
 });
+
+
