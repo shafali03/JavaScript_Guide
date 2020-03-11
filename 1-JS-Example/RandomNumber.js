@@ -18,3 +18,5 @@ const randomNumber = (min, max) => {
 };
 
 console.log(randomNumber(5, 15));
+
+
