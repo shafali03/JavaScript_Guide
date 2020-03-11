@@ -99,3 +99,8 @@ const add = (function() {
 add(); // counter = 1
 add(); // counter = 2
 add(); // counter = 3
+
+
+// Change the add to variable add and define it as a self invoked function by adding the parenthesis at the end because of this the function will only run one and setting the counter at zero and returning a function expression. when I call the add function we are accessing the inner function but still have access to the counter in the parent scope even after the parent function has closed.
+
+// By using closer we can create private variable. Now the counter is protected by the scope of the anonymous function and can only be change with the add function.
