@@ -42,6 +42,6 @@ for (variable of iterable) {
 
 // for of will not work with objects they are not iterable
 
-For in = objects
+// For in = objects
 
-For of = Arrays
+// For of = Arrays
