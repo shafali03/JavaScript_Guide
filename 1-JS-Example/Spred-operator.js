@@ -112,4 +112,3 @@ console.log(sum(1, 2, 3)) // 6
 console.log(sum(1, 2, 3, 4)) // 10
 
 // In the above we're using an Arg in this function so the rest operator does the opposite it collects or condenses all of the elements into a single array instance.
-
