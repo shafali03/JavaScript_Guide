@@ -15,6 +15,8 @@ fetch("https://jsonplaceholder.tyicode.com/todos")
 
 
   // console.log output
+
+  // JSON
   {
     id: 1,
     title: "Need Todo",
@@ -46,6 +48,7 @@ fetch("https://jsonplaceholder.typicode.com/todos", {
 
 // Console Output
 
+// JSON
 {
   id: 201,
   title: "New Todo",
