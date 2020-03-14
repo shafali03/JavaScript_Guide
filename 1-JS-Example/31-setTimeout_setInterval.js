@@ -106,7 +106,7 @@ function count() {
 
 
 
-let counter = 0
+let counter = 0 
 
 const counterInterval = setInterval(count, 1000);
 
